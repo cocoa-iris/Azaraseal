@@ -21,9 +21,11 @@ for i in range(0,50000):
   a5='ω'
   a6=''
   a7=''
-  a8='
+  a8=''
+  a9='ｺﾞﾌｯ'
   while a<=15:
     k=random.randrange(0,5)
+    p=random.randrange(0,2)
     if k==0:
       a2+=' '
     if k==1:
@@ -34,12 +36,16 @@ for i in range(0,50000):
       a7+=' '
     if k==4:
       a8+=' '
-    seal='('+a2+a3+a4+a5+a6+a3+a7+'っ'+a8+')3'
+    if p==0:
+      a9='ｺﾞﾌｯ'
+    else:
+      a9='ｺﾞﾌｰ'
+    seal='('+a2+a3+a4+a5+a6+a3+a7+'っ'+a8+')3'+a9
     if a==5:
       a3='・'
     if a==10:
-      print('(ーωーっ)3ｺﾞﾌｯ')
+      webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message=(ーωーっ)3ｺﾞﾌｯ")
       break
-      print(seal)
-      webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message="+seal)
-      a+=1
+    print(seal)
+    webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message="+seal)
+    a+=1
