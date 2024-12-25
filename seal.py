@@ -61,6 +61,7 @@ for i in range(0,50000):
 
 
 import random
+webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message=+++(・ω・ っ)3あざらしが めざめた！+++")
 
 for i in range(0,5):
   l=[0,1,2,3,4]
