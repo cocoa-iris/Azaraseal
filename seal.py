@@ -44,7 +44,7 @@ for i in range(0,50000):
     if a==5:
       a3='・'
     if a==10:
-      webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message=(ーωーっ)3ｺﾞﾌｯ")
+     
       break
     print(seal)
     webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message="+seal)
@@ -75,6 +75,7 @@ for i in range(0,5):
   a9='ｺﾞﾌｯ'
   random.shuffle(l)
   while a<=5:
+    time.sleep(60)
     p=random.randrange(0,2)
     print(l[a])
     k=l[a]
@@ -96,7 +97,7 @@ for i in range(0,5):
     if a==2:
       a3='・'
     if a==4:
-      print('r')
+      webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message=(ーωーっ)3ｺﾞﾌｯ")
       break
-    print(seal)
+    webbrowser.open("https://zinro.net/m/player.php?mode=message&to_user=ALL&message="+seal)
     a+=1
